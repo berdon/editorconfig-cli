@@ -2,10 +2,11 @@ package editorconfig
 
 import (
 	"fmt"
-	"github.com/codegangsta/cli"
 	"os"
 	"strconv"
 	"strings"
+
+	"github.com/urfave/cli"
 )
 
 func CheckCommand(c *cli.Context) error {

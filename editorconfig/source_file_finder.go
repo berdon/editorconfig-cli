@@ -2,11 +2,12 @@ package editorconfig
 
 import (
 	"bytes"
-	"github.com/codegangsta/cli"
 	"os"
 	"path/filepath"
 	"regexp"
 	"strings"
+
+	"github.com/urfave/cli"
 )
 
 var containsDotDirectoryRegex = regexp.MustCompile(`(^|/)\.[^/]+/`)

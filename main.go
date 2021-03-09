@@ -1,8 +1,9 @@
 package main
 
 import (
-	"github.com/amyboyd/editorconfig-cli/editorconfig"
 	"os"
+
+	"github.com/amyboyd/editorconfig-cli/editorconfig"
 )
 
 func main() {

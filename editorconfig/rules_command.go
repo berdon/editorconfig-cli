@@ -2,7 +2,8 @@ package editorconfig
 
 import (
 	"fmt"
-	"github.com/codegangsta/cli"
+
+	"github.com/urfave/cli"
 )
 
 func RulesCommand(c *cli.Context) error {

@@ -2,9 +2,10 @@ package editorconfig
 
 import (
 	"fmt"
-	"github.com/codegangsta/cli"
 	"strconv"
 	"strings"
+
+	"github.com/urfave/cli"
 )
 
 func LsCommand(c *cli.Context) error {
